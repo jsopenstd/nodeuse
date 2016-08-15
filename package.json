@@ -1,0 +1,55 @@
+{
+  "name": "nodeuse",
+  "version": "0.0.0",
+  "description": "A generic loader tool to extend Node's native require() function for better structured module and file loading.",
+  "main": "dist/nodeuse.js",
+  "license": "MIT",
+  "homepage": "https://github.com/jsopenstd/nodeuse",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsopenstd/nodeuse.git"
+  },
+  "author": {
+    "name": "Richard King",
+    "email": "richrdkng@gmail.com",
+    "url": "https://github.com/richrdkng"
+  },
+  "dependencies": {
+    "glob": "^7.0.5",
+    "yamljs": "^0.2.8"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "coveralls": "^2.11.11",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-debug": "^2.1.2",
+    "gulp-eslint": "^3.0.1",
+    "gulp-header": "^1.8.7",
+    "gulp-intercept": "^0.1.0",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sequence": "^0.4.5",
+    "gulp-uglify": "^2.0.0",
+    "merge2": "^1.0.2",
+    "semver": "^5.3.0"
+  },
+  "scripts": {
+    "g": "gulp --gulpfile scripts/gulp/main.js",
+    "gulp": "npm run g",
+    "build": "npm run g -- tasks/build",
+    "test": "npm run g -- tasks/test",
+    "ci": "npm run g -- tasks/ci",
+    "coveralls": "coveralls < cov/lcov.info"
+  },
+  "keywords": [
+    "js",
+    "nodeuse",
+    "use",
+    "nu",
+    "require",
+    "jsopenstd",
+    "commonjs"
+  ]
+}
