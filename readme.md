@@ -1,5 +1,7 @@
 # nodeuse
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ntbx/nodeuse.svg)](https://greenkeeper.io/)
+
 [![Recent Version][npm-badge]][npm-url]
 [![Travis CI - Build Status][travis-badge]][travis-url]
 [![Coveralls - Code Coverage Status][cov-badge]][cov-url]
